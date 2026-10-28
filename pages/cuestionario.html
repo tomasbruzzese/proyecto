@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario</title>
+</head>
+<body>
+    <form id="cuestionario">
+        <h1>¿Cuánta atención prestaste a lo que leíste?</h1>
+        <div>
+            <label for="nombre">Escribe tu nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+        </div>
+        <div>
+            <label for="pregunta1">1- ¿Dónde y cuándo nació el Siervo de Dios Joaquín Erviti Lazcano?</label>
+            <input type="date" id="pregunta1" name="pregunta1">
+        </div>
+        <div>
+            <label for="pregunta2">2- ¿Cuál fue su labor principal como escolapio?</label>
+            <input type="text" id="pregunta2" name="pregunta2">
+        </div>
+        <div>
+            <label for="pregunta3">3- ¿A dónde fue luego de la Guerra Civil Española?</label>
+            <input type="text" id="pregunta3" name="pregunta3">
+        </div>
+        <div>
+            <label for="pregunta4">4- ¿Cuándo falleció?</label>
+            <input type="date" id="pregunta4" name="pregunta4">
+        </div>
+        <div>
+            <label for="pregunta5">5- ¿Cuántas obras escribió?</label>
+            <input type="number" id="pregunta5" name="pregunta5">
+        </div>
+        <div>
+            <button type="button"
+            onclick="cuestionario_terminado()">Enviar
+        </button>
+        </div>
+    </form>
+</body>
+</html>
