@@ -41,12 +41,14 @@ section {
      font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .imagenes {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 .imagenes img {
-    display: block;
-    margin: 30px auto;
+    width: 325px;
 }
 h4 {
     background-color: #E07A5F;
