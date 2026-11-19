@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="./css/estilos.css">
 /*
     Esta función se ejecuta cuando el usuario hace clic en "Verificar respuestas".
 */
